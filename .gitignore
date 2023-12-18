@@ -1,0 +1,8 @@
+WebApplication/.vs/
+WebApplication/bin/
+WebApplication/obj/
+WebApplication/packages/
+
+DVPostDataClient/.vs/
+DVPostDataClient/bin/
+DVPostDataClient/obj/
