@@ -6,18 +6,18 @@
 
 Пример тела запроса:
 <pre>{
-docKind: "docKind",
-docNumber: "docNumber",
-creationDate: "2012-04-23",
-mainAccount: "1",
-correspondentAccount: "2",
-partnerCode: "code",
-orderNumber: "00000005",
-extraInfo: "extraInfo",
-warehouse: "10",
-shortContent: "shortContent",
-providingNumber: "providingNumber",
-loadDate: "2012-04-23T18:25:43.511Z"
+    docKind: "docKind",
+    docNumber: "docNumber",
+    creationDate: "2012-04-23",
+    mainAccount: "1",
+    correspondentAccount: "2",
+    partnerCode: "code",
+    orderNumber: "00000005",
+    extraInfo: "extraInfo",
+    warehouse: "10",
+    shortContent: "shortContent",
+    providingNumber: "providingNumber",
+    loadDate: "2012-04-23T18:25:43.511Z"
 }</pre>
 Возвращаемое значение: Идентификатор карточки
 
