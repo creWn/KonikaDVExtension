@@ -5,7 +5,7 @@
 4. С помощью  Postman отправить запрос по адресу /api/card/create
 
 Пример тела запроса:
-{
+<pre>{
 docKind: "docKind",
 docNumber: "docNumber",
 creationDate: "2012-04-23",
@@ -18,7 +18,7 @@ warehouse: "10",
 shortContent: "shortContent",
 providingNumber: "providingNumber",
 loadDate: "2012-04-23T18:25:43.511Z"
-}
+}</pre>
 Возвращаемое значение: Идентификатор карточки
 
 Заголовок авторизации должнен состоять из адреса подключения к StorageServerService.asmx, логина и пароля через пробел, с префиксом DV
