@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CardLibrary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="D273F1FC-64C9-4769-B394-7F4AFB0FBFC8" Alias="MyLibrary" ControlInfo="" IconFile="" Version="1" MsiProductCode="" MsiPackageName="">
+  <Definitions>
+    <RefCardDefinition>MyType.xml</RefCardDefinition>
+  </Definitions>
+  <Name>
+    <LocalizedString Language="en">MyLibrary</LocalizedString>
+    <LocalizedString Language="ru-RU">MyLibrary</LocalizedString>
+  </Name>
+  <Log>
+    <Name />
+  </Log>
+</CardLibrary>

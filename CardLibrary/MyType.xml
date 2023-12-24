@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CardDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="B130D3AD-182A-4B3B-B259-2C33AAF5BEAA" Alias="MyType" Version="11" LibraryID="D273F1FC-64C9-4769-B394-7F4AFB0FBFC8" ProgID="clsid:{16f0201f-589f-465c-9721-f6a571eb9512}" IconFile="" UIExtension="true" FetchMode="1" DefaultSecurity="" TypeName="DocsVision.BackOffice.WinForms.BaseCardControl, DocsVision.BackOffice.WinForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7148afe997f90519">
+  <Name>
+    <LocalizedString Language="en">MyType</LocalizedString>
+    <LocalizedString Language="ru-RU">MyType</LocalizedString>
+  </Name>
+  <Sections>
+    <Section Alias="MainSection" RowAlias="" Type="struct" ID="E639044E-C46B-47E0-AF26-945FA6512587">
+      <Name />
+      <Field Alias="DocKind" ID="3DF7AEE6-F7B4-4EC5-9F04-8411D6EAD7E8" Type="string" NotNull="true" DefaultValue="" ShownInUI="true" CopyBehavior="Null">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="DocNumber" ID="69152BE6-737C-48CE-9DFD-7EAE02E53B54" Type="string" DefaultValue="" ShownInUI="true" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="CreationDate" ID="F7A50822-0CB9-4092-906B-07D6790C0BCE" Type="date" DefaultValue="" ShownInUI="true" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="MainAccount" ID="CB7F4B16-338C-486D-A472-8242DC83338C" Type="int" DefaultValue="" ShownInUI="true" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="CorrespondentAccount" ID="6DB70E57-5FE5-4269-AA6D-685FC25F4E8D" Type="int" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="PartnerCode" ID="10BD4C15-9EA3-4FA5-ADDE-F8B44C9B483D" Type="string" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="OrderNumber" ID="AE3EEB95-2790-4CB0-9B18-2E612231FAA2" Type="int" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="ExtraInfo" ID="47D632F0-E327-4AA8-8AE9-3E027721E2F2" Type="text" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="Warehouse" ID="92B5FF79-20FF-484E-B7E8-4B1A73566260" Type="int" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="ShortContent" ID="79FD4B6B-F81B-4FD0-BE0A-4715B174C9BA" Type="text" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="ProvideingNumber" ID="C262B82C-DF16-4B26-8A69-D32E1295B4AC" Type="string" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="LoadDate" ID="84469718-B142-40EB-907E-19A131041220" Type="datetime" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <Field Alias="Attachment" ID="E11FAB09-638C-43C1-909C-7FE79985490B" Type="fileid" DefaultValue="" CopyBehavior="Copy">
+        <Name />
+        <Description />
+      </Field>
+      <DisplayFields FormatString="" />
+    </Section>
+  </Sections>
+</CardDefinition>
