@@ -16,7 +16,8 @@ namespace WebApplication.Helpers
             if (request.MainAccount.HasValue && request.MainAccount.Value < 0)
                 result.Add("MainAccount");
 
-            if (request.CorrespondentAccount.HasValue && request.CorrespondentAccount.Value < 0)
+            if (request.CorrespondentAccount.HasValue 
+                && (request.CorrespondentAccount.Value < 0 || request.CorrespondentAccount.Value.Length() > 12))
                 result.Add("CorrespondentAccount");
 
             if (request.OrderNumber.HasValue && (request.OrderNumber.Value < 0 || request.OrderNumber.Value.Length() != 8))

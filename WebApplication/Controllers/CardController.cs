@@ -63,7 +63,7 @@ namespace WebApplication.Controllers
             card.MainSection.Warehouse = request.Warehouse;
             card.MainSection.ShortContent = request.ShortContent;
             card.MainSection.ProvidingNumber = request.ProvidingNumber;
-            card.MainSection.LoadDate = request.CreationDate;
+            card.MainSection.LoadDate = request.LoadDate;
 
             if (fileId != Guid.Empty)
                 card.MainSection.Attachment = fileId;
